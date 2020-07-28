@@ -38,4 +38,10 @@ public class Plane extends Vehicle implements Driveable, Flyable {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public void stop(){
+        System.out.println("Самолет заходит на посадку");
+        System.out.println("Самолет приземлен");
+        System.out.println("Самолет остановлен");
+    }
 }

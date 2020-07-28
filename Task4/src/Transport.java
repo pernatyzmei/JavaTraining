@@ -6,8 +6,11 @@ public class Transport {
 
         Car car = new Car();
         car.move();
+        car.stop();
 
+        System.out.println("\n");
 
-
+        Plane plane = new Plane("TY134", "khaki");
+        plane.stop();
     }
 }
